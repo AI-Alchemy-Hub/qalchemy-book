@@ -1,0 +1,56 @@
+site_name: Quantum Computing - Zero to Hero
+site_url: https://www.aialchemyhub.in/books/qalchemy/
+site_author: Satya Prakāśa Nigama
+repo_url: https://github.com/AI-Alchemy-Hub/qalchemy-book
+repo_name: AI-Alchemy-Hub/qalchemy-book
+
+theme:
+  name: material
+  palette:
+        - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+        - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - content.code.copy
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.highlight
+    - pymdownx.arithmatex:
+      generic: true
+    - footnotes
+    - attr_list
+    - md_in_html
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+    - Home: index.md
+    - Front Matter:
+        - From the Author: front-matter/from-author.md
+        - Preface: front-matter/preface.md
+        - How to Use This Book: front-matter/how-to-use.md
+    - Part 0: Foundations:
+        - 1. Classical vs Quantum: ch01_classical_vs_quantum.md
+        - 2. Math Primer: ch02_math_primer.md
+
+plugins:
+    - search

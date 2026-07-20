@@ -1,0 +1,27 @@
+# MkDocs
+site/
+.sass-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local drafts - uncomment if you keep notes
+# draft/
